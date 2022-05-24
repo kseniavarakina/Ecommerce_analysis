@@ -1,20 +1,20 @@
 # Ecommerce_analysis
-## Описание проекта
-Необходимо сегментировать пользователей по их профилю потребления (на основе покупок), провести исследовательский анализ данных и подготовить рекомендации по формированию персонализированных предложений для пользователей.
-## Описание датасета
-Набор данных включает в себя информацию о покупках пользователей за период 01/10/2018-31/10/2019. Датасет включает в себя 6377 строк, без пропусков, и включает в себя следующую информацию:
- - Дата покупки (int)
- - Id пользователя (object)
- - Id заказа (object)
- - Наименование продукта (object - в свободной форме)
- - Количество покупок (int)
- - Стоимость 1 единицы товаров (int)
-![Пример датасета](https://github.com/kseniavarakina/Ecommerce_analysis/blob/master/dataset_head.png) 
-## Используемые библиотеки
-| Описание задачи    | Используемая библиотека | 
-| -------------------|:-----------------------:| 
-| Лемматизация       | regex                   | 
-| Категоризация      | gensim, SnowballStemmer | 
-| Анализ данных      | pandas                  |
-| Визуализация данных| matplotlib, seaborn     |
-| Проверка гипотез   | scipy                   |
+## Project description
+The goal is to segment users based on their consumption profile (purchase history), research data and give recommendations for users personalization. 
+## Dataset description
+Dataset includes purchase history over a period of 01/10/2018-31/10/2019. Datasets consists of 6377 lines, without omission, including following information:
+ - Purchase date (int)
+ - User Id (object)
+ - Order Id (object)
+ - Purchase name (object - in no particular format)
+ - Number of purchases (int)
+ - Cost per 1 purchase (int)
+![Dataset sample](https://github.com/kseniavarakina/Ecommerce_analysis/blob/master/dataset_head.png) 
+## Used libraries
+| Task description       | Used library | 
+| -----------------------|:-----------------------:| 
+| Lemmatization          | regex                   | 
+| Categorization         | gensim, SnowballStemmer | 
+| Data analysis          | pandas                  |
+| Data visualiation      | matplotlib, seaborn     |
+| Hypothesis validation  | scipy                   |
